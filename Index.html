@@ -1,8 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar Products Africa | PAYG Solutions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar Products Africa | PAYG Solutions</title>
 </head>
-<body style="background-color:
+<body style="background-color: #0f172a; color: white; font-family: sans-serif;">
+<header style="background-color: #0f172a; color: white; padding: 1rem 0; border-bottom: 1px solid #334155;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center;">
+<h1 style="font-size: 1.25rem; font-weight: bold;">Solar Products Africa</h1>
+</div>
+</header>
+<section id="hero" style="padding: 4rem 0; text-align: center;">
+<div style="max-width: 800px; margin: 0 auto; padding: 0 1rem;">
+<h2 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem;">Affordable Lighting Made Simple</h2>
+<p style="color: #94a3b8; margin-bottom: 2rem;">Get high-quality solar products for home and business, with easy daily payment plans.</p>
+</div>
+</section>
+<section id="products" style="padding: 4rem 0;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+<h2 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 3rem;">Our Featured Products</h2>
+<div style="display: grid; grid-template-columns: 1fr; gap: 2rem; padding: 0 1rem;">
+<div style="background-color: white; border-radius: 0.75rem; padding: 1.5rem; color: #1e293b;">
+<h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem;">Solar Home Lighting</h3>
+<p style="color: #64748b; margin-bottom: 1rem;">Perfect for lighting up your home efficiently.</p>
+<ul style="font-size: 0.875rem; color: #475569; list-style-type: none; padding: 0;">
+<li>* Long-lasting battery</li>
+<li>* Easy installation</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="payg" style="background-color: #f1f5f9; padding: 4rem 0; color: #1e293b;">
+<div style="max-width: 800px; margin: 0 auto; padding: 0 1rem;">
+<h2 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 2rem;">PAYG Simulator</h2>
+<div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+<h4 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem;">PAYG Loan Simulator</h4>
+<p style="color: #475569; margin-bottom: 1rem;">Simulate your daily payments.</p>
+<div id="deviceScreen" style="text-transform: uppercase; letter-spacing: 0.05em; color: #059669; border: 1px solid #065f46; padding: 1rem;">
+<p id="deviceStatus">Device Status: DEACTIVATED</p>
+<p id="deviceTime">Remaining Time: 0 hrs</p>
+</div>
+</div>
+</div>
+</section>
+<footer style="background-color: #0f172a; color: #94a3b8; text-align: center; padding: 2rem 0; border-top: 1px solid #1e293b;">
+<p>© 2026 Solar Products Africa. All rights reserved.</p>
+</footer>
+<script>
+function updateLCD(text) {
+document.getElementById('deviceScreen').innerHTML = text;
+}
+</script>
+</body>
+</html>"
